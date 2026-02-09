@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ResponsiveWB</title>
+    <style>
+      body {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+      h1 {
+        color: rgb(0, 0, 0);
+        margin-top: 100px;
+      }
+      p {
+        color: rgb(0, 0, 0);
+      }
+      .wave {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        margin-top: 140px;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .nav {
+        margin-top: 12px;
+      }
+      .social {
+        position: absolute;
+        right: 64px;
+        top: 16px;
+      }
+      .social-icon {
+        height: 24px;
+      }
+      .main-image{
+        width: 100%;
+
+      }
+      .logo{
+        position: absolute;
+        left: 0;
+        width: 48px;
+        top: 16px;
+        left: 16px;
+      }
+      .kontakt-button{
+
+        color:white;
+        background-color: rgb(255, 72, 0);
+        padding: 8px 80px;
+        display: inline-block;
+        border-radius: 8px;
+        margin-top: 16px;
+        margin-bottom: 32px;
+        display: inline-flex;
+        align-items: center;
+      }
+
+
+      .kontakt-button:hover{
+        text-decoration: none;
+        background-color: rgb(0, 60, 255);
+      }
+      .mail-png{
+        height: 16px;
+        margin-right: 4px;
+      }
+      .wave-bottom{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 50px;
+      }
+      .foter{
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        background-color: #0099ff;
+        height: 50px;
+
+      }
+      @media (min-width: 850px) { 
+        
+      .desktop-res{
+        display: flex;
+      }
+      .main-image{
+      width: 50%;
+      margin-top: 150px;
+    }
+    
+    }
+    </style>
+  </head>
+  <body>
+    <img class="logo" src="img/coding.png" />
+    <img class="wave" src="img/wave.svg" alt="Wave" />
+    <div class="nav">
+      <a href="https://google.de">Home</a>
+      <a href="about.html">Infos</a>
+      <a href="">Impressum</a>
+    </div>
+    <div class="social">
+      <a href="https://instagram.com">
+        <img class="social-icon" src="img/instagram-brands-solid-full.svg" />
+      </a>
+
+      <a href="https://wwww.tiktok.com">
+        <img class="social-icon" src="img/tiktok-brands-solid-full.svg" />
+      </a>
+      <a href="https://wwww.twitch.tv">
+        <img class="social-icon" src="img/twitch-brands-solid-full.svg" />
+      </a>
+    </div>
+    <div class="desktop-res">
+      <div>
+        <h1>
+          Herzlich <br />
+          willkommen
+        </h1>
+        <p>
+          Ich bin Aaron. Und ich bin Programmierer. Diese Internetseite wurde
+          erstellt, um mir das Erstellen einer Internetseite beizubringen.
+        </p>
+
+        <a class="kontakt-button" href="mailto: aaron2009rico2018@gmail.com">
+          <img class="mail-png" src="img/envelope.png" />Kontakt</a
+        >
+      </div>
+      <img class="main-image" src="img/menPc.jpg" />
+    </div>
+    <img class="wave-bottom" src="img/wave1.svg">
+    <div class="foter">
+        (c) 2026 Ronzky GmhB
+    </div>
+ 
+
+</body>
+</html>
